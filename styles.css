@@ -1,0 +1,44 @@
+*{
+    margin: 0;padding: 0;box-sizing: border-box;
+}
+body{
+    background-color: gainsboro;
+}
+fieldset{
+    display: flex;
+    width: 70%;
+    height: 60vh;
+    margin: 29px auto;
+    background-color: rgb(14, 14, 51);
+    border-radius: 20px;
+    border: 5px solid whitesmoke;
+}
+form{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 30px auto;
+    background: gainsboro;
+    width: 70%;
+    height: 50vh;
+    gap: 2rem;
+    border-radius: 15px;
+    font-size: 20px;
+}
+#name{
+    margin-left: -1rem;
+}
+ img{
+    width: 19px;
+    cursor: pointer;
+}
+input{
+    width: 10rem;
+    height: 1.5rem;
+    outline: none;
+    background: transparent;
+}
+#message{
+    display: none;
+
+}

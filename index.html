@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="error"></div>
+    <fieldset>
+        <form id="form" action="">
+            <label for=""><p>Name</p>
+                <input type="text" id="name" placeholder="Enter username...">
+            </label>
+            <label for=""><p>Password</p>
+                <input type="password" id="pass" placeholder="Enter Password...">
+                <img src="./eye-icons/eye-close.png" id="eyeicon" alt="">
+            </label>
+            
+            <button type="submit">Login</button>
+            <h4 id="message">Passwors is: <span  id="strength"></span></h4>
+        </form>
+    </fieldset>
+    
+   <script src="index.js"></script>
+</body>
+</html>
